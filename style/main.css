@@ -43,10 +43,12 @@ header nav a:hover{
 }
 
 /*filme principal*/
+
+
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-liga.jpg');
-    
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('img/filme.jpg');
+        
     height: 400px;
     background-size: cover;
     
@@ -102,4 +104,8 @@ header nav a:hover{
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
 }
